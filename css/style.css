@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+#topheader{
+	background-color: #ecf0f0;
+	padding: 5px 0;
+	text-align: right;
+}
+#topheader a{
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+#menu{
+	background-color: #fff;
+}
+#hero{
+	background-image: url("../img/hero-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#hero h2{
+	font-size: 50px;
+	font-weight: 800;
+}
+#hero h3{
+	font-size: 22px;
+	color: #5b6471;
+	font-weight: 400;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.vinculo{
+	color: #1c222e;
+	font-size: 15px;
+	font-weight: 800;
+	border-bottom: 3px solid #ff5a2d;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.vinculo:hover{
+	color:#ff5a2d;
+}
+#hero .overlay{
+	padding: 12% 0;background: linear-gradient(to right, rgba(255,255,255,0.70), transparent);
+}
+#pt2{
+	text-align: center;
+}
+#pt2 h2{
+	font-size: 25px;
+	font-weight: 900;
+}
+#pt2 p{
+	font-size: 18px;
+	max-width: 70%;
+	margin: auto;
+	color: #5b6471;
+	padding: 15px 0;
+}
+/*:nth-child() es para poner otras columnas en vez de "first-child o "last-child"*/
+#pt2 article:first-child{
+	border-right: 1px solid #bfc6cd;
+}
+#pt2 article{
+	padding: 40px 0;
+}
+.btn-naranja{
+	background-color: #ff5a2d;
+	border-radius: 30px;
+	padding: 5px 20px !important;
+	color: #fff !important;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.btn-naranja:hover{
+	background-color: #1c222e;
+}
+
+#news{
+	background-color: #ecf0f0;
+}
+
+#news article:last-child{
+	padding: 90px;
+	padding-right: 0px;
+}
+
+#news h3{
+	font-size: 15px;
+	color: #5b6471;
+}
+
+#news p{
+	font-size: 22px;
+	color: #5b6471;
+	font-weight: 400;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#frase{
+	text-align: center;
+	padding: 80px;
+}
+
+#frase h2{
+	color: #bfc6cb;
+	padding-bottom: 60px;
+}
+
+#frase h1{
+	color: #1c222e;
+	font-style: italic;
+	font-weight: 200;
+}
+
+#frase h3{
+	font-size: 15px;
+	color: #bfc6cb;
+	padding: 60px 0px;
+}
+
+.list-inline-item{
+	height: 10px;
+	width: 120px;
+}
+
+.escritorio{
+	margin:auto;
+}
+
+.img2{
+	background-image: url("../img/Office-Background-1189964480_1257x838.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 50px 0;
+}
+.newyork{
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
